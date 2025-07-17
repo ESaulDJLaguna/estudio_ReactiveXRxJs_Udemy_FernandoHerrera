@@ -23,7 +23,7 @@ const hoyEn5 = new Date();
 hoyEn5.setSeconds(hoyEn5.getSeconds() + 5);
 const timer$ = timer(hoyEn5);
 
-//! Demostramos que interval y timer son asíncronos. Primero se imrpimen los mensajes de los console.log y en seguida se emiten los valores
+//! Demostramos que interval y timer son asíncronos. Primero se imprimen los mensajes de los console.log y en seguida se emiten los valores
 console.log("Inicio");
 // interval$.subscribe(observer);
 timer$.subscribe(observer);
